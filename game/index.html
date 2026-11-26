@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skylark Run — a little red prop plane, three valleys</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0a101a; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; }
+  canvas {
+    width: min(100vw, 1280px);
+    height: auto;
+    aspect-ratio: 1280 / 800;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    background: #2e4a7a;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" tabindex="0"></canvas>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
